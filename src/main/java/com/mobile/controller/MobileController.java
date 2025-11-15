@@ -130,10 +130,11 @@ public List<MobileEntity>getExcept1(@PathVariable String a)throws NumberNotFound
 	return ms.getExcept1(a);
 	
 }
-@GetMapping(value="/getname/{a}")
+@GetMapping(value="/getnamegit/{a}")
 public List<MobileEntity>getname(@RequestParam String a){
 	return ms.getname(a);
 }
+
 
 
 
